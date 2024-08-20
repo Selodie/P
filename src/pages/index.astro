@@ -31,16 +31,17 @@ const projects = (await getCollection('work'))
 			<header class="hero">
 				<Hero
 					title="Bonjour, Je m'appelle Elodie Soufflet"
-					tagline="Après des études d'histoire et six années dans la petite enfance, j'ai décidée de changer de métier. Je suis actuellement en alternance en tant que développeuse web."
+					tagline="Après des études d'histoire et six années dans la petite enfance, j'ai décidé de changer de métier. Je suis actuellement en alternance en tant que développeuse web."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developeur web</Pill>
+						<!-- <Pill><Icon icon="code" size="1.33em" /> Developeur web</Pill> -->
+						<Pill><Icon icon="file" size="1.33em" /><a href ="assets/test.pdf" download> Télécharger mon CV</a></Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Portrait d'Elodie portant son chat dont ne voit que la moitié de la tête"
+					alt="Portrait d'Elodie portant son chat dont on ne voit que la moitié de la tête"
 					width="480"
 					height="620"
 					src="/assets/me.jpg"
@@ -101,6 +102,11 @@ const projects = (await getCollection('work'))
 		object-position: top;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+	}
+
+	.hero a {
+		text-decoration : none;
+		color : #FFFFFF; 
 	}
 
 	@media (min-width: 50em) {

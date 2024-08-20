@@ -44,9 +44,12 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<div class="stack gap-8 content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 					<div class="content">
+						<div class="stack gap-10 content">
+							<a href={entry.data.link} target="_blank"><Icon icon="link" size="1.6em"  />Lien vers {entry.data.text}</a>
+						</div>
 						<Content />
 					</div>
 				</div>
@@ -131,6 +134,10 @@ const { Content } = await entry.render();
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+
+	.wrapper a {
+		text-decoration: none;
 	}
 
 	@media (min-width: 50em) {
