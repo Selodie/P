@@ -2,9 +2,10 @@
 title: Booki
 publishDate: 2024-07-15 00:00:00
 link: "https://github.com/Selodie/Projet_booki"
-img: /assets/Booki.png
+img: /assets/project/Booki.png
 img_alt: Site du projet Booki 
-description: Projet Booki. Site permettant aux urilisateurs de trouver des hébergements et des activités dans la ville de leur choix.
+description: |
+  Site web d'une agence de voyage.
 text: le projet sur Git Hub
 tags:
   - HTML
@@ -15,13 +16,17 @@ tags:
 
 > Premier projet réalisé lors de ma formation auprès d'Openclassroom
 
-### Réalisation d'une page d'acceuil
+Création de la page d'accueil d'une agence de voyage, Booki, en utilisant HTML et CSS.
 
-Premier pas avec le HTML et le CSS afin de réalisé, à partir d'une maquette, la page d'accueil du site Booki. Le site est responsive.
+#### Acquis et défis
 
-#### Difficultées et apports
+Ce projet m'a permis de mettre en pratique mes connaissances en HTML et CSS, tout en approfondissant mes compétences, notamment en intégrant le responsive de la page.
 
-Ce projet m'a permit de mettre en pratique mes connaissances en HTML et CSS. J'ai également pu me familiariser avec Figma et me référer à une maquette pour la réalisation de la page web. 
-J'ai cependant, éprouvé quelques difficultés dans le respect de la maquette au regard de l'utilisation des flexbox et des grid et leur intérations en responsive.
-Ce projet m'a permit d'apprendre à respecter une maquette et de mettre en place le responsive d'un site web.
+J'ai réalisé ce projet en me basant sur un document détaillant les spécifications fonctionnelles et techniques du site, tout en utilisant l'outil Figma pour consulter et respecter la maquette.
+
+J'ai découvert et appris à utiliser les flexbox et les grid. Bien que leur mise en œuvre ait présenté des défis, notamment pour adapter la maquette aux différentes tailles d'écran, la pratique m'a permis de surmonter ces difficultés.
+
+Enfin j'ai appris à me servir des dev tools qui m'ont aidé dans la réalisation de cette page.
+
+
 
