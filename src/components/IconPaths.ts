@@ -2,12 +2,11 @@
  * Icons adapted from https://phosphoricons.com/ and from https://icon-sets.iconify.design/skill-icons
  *
  * To add icons :
- * 1. Find the icon you want.
- * 2. Click “Copy SVG”.
- * 3. Paste the SVG code in your editor.
- * 4. Remove the `<svg>` wrapper so you only have elements like `<path>`, `<circle>`, `<rect>` etc.
- * 5. Remove any `stroke="#000000"` attributes
- * 6. Replace any `fill="#000000"` attributes with `stroke="none"`
+ * 1. Click “Copy SVG”.
+ * 2. Paste the SVG code in the editor.
+ * 3. Remove the `<svg>` wrapper so only have elements like `<path>`, `<circle>`, `<rect>` etc.
+ * 4. Remove any `stroke="#000000"` attributes
+ * 5. Replace any `fill="#000000"` attributes with `stroke="none"`
  *    (or add `stroke="none"` on shapes with no `fill` or `stroke` specified).
  */
 export const iconPaths = {

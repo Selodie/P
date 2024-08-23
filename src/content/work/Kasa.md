@@ -15,17 +15,17 @@ tags:
 
 ## Projet Kasa
 
-> Sixième projet réalisé lors de ma formation auprès d'Openclassroom
+> Sixième projet réalisé lors de ma formation auprès d'OpenClassrooms
 
-Création d'une application web dynamique et réactive en utilisant React et React router. 
-Cette application se compose d'une page d'acceuil, d'une page à propos, d'une page pour les logements et enfin d'une page d'erreur.
+Création d'une application web dynamique et réactive avec React et React router. 
+Cette application se compose  des pages d'accueil, à propos, pour les logements et enfin, d'une page d'erreur.
 
 
 #### Acquis et défis
 
 J'ai appris à utiliser React et à configurer le router des pages. 
 
-Ce projet m'a permit de découvrir l'utilisation de composant réutilisables et personnalisables ainsi que l'utilisation des hooks.
+Ce projet m'a permis de découvrir l'utilisation de composant réutilisables et personnalisables ainsi que l'utilisation des hooks.
 
 J'ai rencontré quelques difficultés avec JavaScript, mais grâce à la pratique et au soutien de mon mentor OpenClassrooms, j'ai pu les surmonter.
 

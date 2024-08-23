@@ -5,7 +5,7 @@ img: /assets/project/CTT.png
 link : "https://ctt.heliop.com/home"
 img_alt: Projet d'entreprise chauffe ta team
 description: |
-  Icebreaker, générateur de question pour briser la glace en équipe, en famille, entre amis,...
+  Icebreaker, générateur de questions pour briser la glace en équipe, en famille, entre amis,...
 text: l'application web
 tags:
   - Laravel
@@ -18,21 +18,20 @@ tags:
 
 ## Chauffe ta team
 
-> Projet réalisé au sein d'Heliop qui m'a accueillie en alternance durant une année.
+> Projet réalisé au sein de la société Heliop qui m'a accueillie en alternance durant une année.
 
-CTT (Chauffe ta team) génère des questions aléatoirement une fois que l'utilisateur choisis une difficulté, une catégorie ainsi qu'un nombre de questions à afficher.
+CTT (Chauffe ta team) génère des questions aléatoirement une fois que l'utilisateur choisit une difficulté, une catégorie ainsi qu'un nombre de questions à afficher.
 
-Un bouton permet de générer les questions qui s'affichent dans une autre page. Les questions ainsi affichées sont des liens vers un contenu généré par ChatGpt afin de fournir aux utilisateurs une possibilité de réponse.
+Un bouton permet de générer les questions qui s'affichent dans une autre page. Les questions ainsi affichées sont des liens vers un contenu généré par ChatGpt afin de fournir aux utilisateurs une possibilité de réponse. Il est possible d'afficher la liste des participants dans un ordre aléatoire.
 
-Il est également possibile d'afficher la liste des participants dans un ordre aléatoire, un bouton permet de relancer l'ordre des participants.
 
-Les utilisateurs ont également la possibilité de suggérer des questions sur la page d'accueil.
+Les utilisateurs ont également la possibilité de suggérer des questions via un formulaire disponible depuis la page d'accueil.
 
-Il existe également une partie administration qui permet de gérer les questions : ajout, modification, suppression, traduction à l'aide de l'api DeepL. Une modération est également mise en place pour gérer les suggestions de questions.
+Enfin, une partie administration permet de gérer les questions : ajout, modification, suppression, traduction à l'aide de l'api DeepL. Une modération est également mise en place pour gérer les suggestions de questions.
 
 #### Acquis et défis
 
-A travers ce projet j'ai appris à développer une aplication web avec Laravel, Bootstrap, Php, MySql ainsi que l'intelligence artificielle pour produire du contenu.
+A travers ce projet j'ai appris à développer une application web avec Laravel, Bootstrap, Php, MySql ainsi que l'intelligence artificielle pour produire du contenu.
 
 J'ai aussi pu voir différents aspects du métier à travers ce projet en réalisant une maquette, en assistant à la mise en ligne du site mais également en mettant moi même à jour l'application sur un serveur.
 
