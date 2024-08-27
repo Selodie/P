@@ -3,27 +3,67 @@ import Icon from './Icon.astro';
 ---
 
 <section class="box skills">
-	<div class="flex">
-		<h2>Front-end</h2>
-		<Icon icon="html" size="2.5rem" />
-		<Icon icon="css" size="2.5rem" />
-		<Icon icon="bootstrap" size="2.5rem" />
-		<Icon icon="js" size="2.5rem" />
-		<Icon icon="react" size="2.5rem" />
-		<Icon icon="astro" size="2.5rem" />
+	<div>
+		<div>
+			<h2>Front-end</h2>
+		</div>
+		<div class="icon">
+			<div title="HTML">
+				<Icon icon="html" size="3rem" />
+			</div>
+			<div title="CSS">
+				<Icon icon="css" size="3rem" />
+			</div>
+			<div title="Bootstrap">
+				<Icon icon="bootstrap" size="3rem" />
+			</div>
+			<div title="JavaScript">
+				<Icon icon="js" size="3rem" />
+			</div>
+			<div title="React">
+				<Icon icon="react" size="3rem" />
+			</div>
+			<div title="Astro">
+				<Icon icon="astro" size="3rem" />
+			</div>	
+		</div>
 	</div>
 	<div class="flex">
-		<h2>Back-end</h2>
-		<Icon icon="laravel" size="2.5rem" />
-		<Icon icon="php" size="2.5rem" />
-		<Icon icon="sql" size="2.5rem" />
-		<Icon icon="mongoDb" size="2.5rem" />
+		<div>
+			<h2>Back-end</h2>
+		</div>
+		<div class="icon">
+			<div title="Laravel">
+				<Icon icon="laravel" size="3rem" />
+			</div>
+			<div title="Php">
+				<Icon icon="php" size="3rem" />
+			</div>
+			<div title="MySql">
+				<Icon icon="sql" size="3rem" />
+			</div>
+			<div title="MongoDb">
+				<Icon icon="mongoDb" size="3rem" />
+			</div>
+		</div>
+		
+		
 	</div>
 	<div class="flex">
-		<h2>Outils</h2>
-		<Icon icon="github" size="2.5rem" />
-		<Icon icon="vscode" size="2.5rem" />
-		<Icon icon="figma" size="2.5rem" />
+		<div>
+			<h2>Outils</h2>
+		</div>
+		<div class="icon">
+			<div title="GitHub">
+				<Icon icon="github" size="3rem" />
+			</div>
+			<div title="VsCode">
+				<Icon icon="vscode" size="3rem" />
+			</div>
+			<div title="Figma">
+				<Icon icon="figma" size="3rem" />	
+			</div>
+		</div>
 	</div> 
 </section>
 
@@ -51,10 +91,17 @@ import Icon from './Icon.astro';
 		color: var(--gray-400);
 	}
 
+	.skills .icon {
+		display: flex;
+		flex-direction: row;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
 	@media (min-width: 50em) {
 		.box {
 			border-radius: 1.5rem;
-			padding: 2.5rem;
+			padding: 3rem;
 		}
 
 		.skills {

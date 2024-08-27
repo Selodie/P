@@ -25,7 +25,7 @@ CTT (Chauffe ta team) génère des questions aléatoirement une fois que l'utili
 Un bouton permet de générer les questions qui s'affichent dans une autre page. Les questions ainsi affichées sont des liens vers un contenu généré par ChatGpt afin de fournir aux utilisateurs une possibilité de réponse. Il est possible d'afficher la liste des participants dans un ordre aléatoire.
 
 
-Les utilisateurs ont également la possibilité de suggérer des questions via un formulaire disponible depuis la page d'accueil.
+Les utilisateurs peuvent suggérer des questions via un formulaire disponible depuis la page d'accueil.
 
 Enfin, une partie administration permet de gérer les questions : ajout, modification, suppression, traduction à l'aide de l'api DeepL. Une modération est également mise en place pour gérer les suggestions de questions.
 
